@@ -19,4 +19,4 @@ Then exec the compose again
 docker-compose up
 ```
 
-enjoy fletchas :D
+Enjoy fletchas :D
