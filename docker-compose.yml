@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  web:
+    privileged: true    
+    build:      
+      context: .
+      args:
+        - LOCAL_USER_ID=${LOCAL_USER_ID}
+    ports:
+      - "80:80"
+    volumes:
+      - ".:/home/app/rails_app_name"
