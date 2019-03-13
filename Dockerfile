@@ -3,7 +3,7 @@ MAINTAINER Oneide L S <oneidels@gmail.com>
 
 RUN apt-get update && apt-get install -qq -y libpq-dev --fix-missing --no-install-recommends
 
-# install tzdata single
+# install tzdata
 RUN apt-get update && apt-get install -y tzdata
 RUN apt-get update && apt-get install -y nodejs
 
